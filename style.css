@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(214, 160, 23) !important;
+    text-align:center;
+}
+
+
+#Accuracy{
+    color:rgb(208, 246, 250);
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+#Object{
+    color:rgb(174, 220, 246);
+    font-family: 'Righteous', cursive;
+}

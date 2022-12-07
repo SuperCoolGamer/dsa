@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Face Recognition App</title>  
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+
+
+<body>
+    <center>
+    <h1>Face Recognition App</h1>
+
+<h3>Used to recognize your famiy members</h3>
+
+    <h3 class="bar">Mother</h3>
+
+    <br>
+    <hr>
+
+
+    <h3>Father</h3>
+
+
+    <br>
+    <hr>
+
+
+    <h3>Sister</h3>
+
+
+    <br>
+    <hr>
+
+
+
+    <h3>Me</h3>
+
+
+<label>Webcam</label>
+<div id="camera" class="border"></div>
+<br>
+
+<div id="Result" class="border"></div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<button id="Capture" class="btn btn-info" onclick="takeimage()"> Capture</button>
+<br>
+<br>
+<button id="Check" class="btn btn-primary" onclick="check()">Check</button>
+
+<br>
+
+
+<h2 id="Object">Object:</h2>
+
+
+<h2 id="Accuracy">Accuracy:</h2>
+
+
+
+
+
+
+
+
+</center>
+<script src="main.js"></script>
+
+</body>
+
+
+
+</html>
